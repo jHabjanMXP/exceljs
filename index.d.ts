@@ -1935,6 +1935,11 @@ export namespace stream {
 			 * Styles can add some performance overhead. Default is false
 			 */
 			useStyles: boolean;
+
+			/**
+			 * Specifies whether execution time for downloading the workbook should be logged. Default is false
+			 */
+			logExecutionTime: boolean;
 		}
 
 		interface ArchiverZipOptions {
